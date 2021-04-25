@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        .arrow {
+          position: absolute;
+          height: 60px;
+          border: 1px solid black;
+          font-size: 28px;
+         
+          line-height: 60px;
+        }
+      </style>      
+</head>
+<body>
+    <h1>Задание №1</h1>
+    <div class="border-1">
+        <img src="./balloons1.jpg" alt="balloon" class="first-img">
+        <span>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi vel ea ratione consectetur! Assumenda, id possimus perspiciatis ex delectus unde qui amet ipsa quisquam neque repellat laborum eum, impedit quidem!
+            Facere error aut nemo, recusandae iste modi nam ducimus minima doloribus molestiae alias dicta debitis, ipsa omnis aliquam sit voluptatem accusamus beatae quos veritatis praesentium culpa amet placeat. Illo, veritatis.
+            Corrupti, quaerat tempora qui placeat blanditiis minus, sunt minima, culpa quasi in ad veritatis dolores eius necessitatibus. Quis tempora aliquam nam iure hic ullam ipsam velit dicta commodi? Consectetur, unde.
+            Laboriosam maxime dolore iure, vitae repellat, earum veniam eius libero, impedit obcaecati deserunt dolor <img src="./balloons1.jpg" alt="balloon" class="second-img"> soluta nam voluptate delectus rem praesentium facere? Eligendi obcaecati libero ratione amet laborum hic dolor rerum.
+            Necessitatibus accusantium numquam officia at! Itaque modi eum, ut iure assumenda eos ex accusamus officia impedit soluta deserunt optio, odio quam ipsam vel temporibus consequuntur! Facilis quis dolorum pariatur quasi.
+            Recusandae aliquid tenetur praesentium facere ipsam nesciunt saepe non molestias molestiae dolor, iure enim perspiciatis sed ex magnam voluptatum ipsum, ratione deserunt, perferendis velit iusto alias. Quo architecto eos minima!
+            Harum perspiciatis quae reprehenderit molestias quidem suscipit repellendus non dolor impedit, mollitia cumque iste possimus
+        </span>
+    </div>
+    <h1>Задание №2</h1>
+    <div class="border-2">
+        <div class="bg-block-1">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="border-3">
+        <div class="bg-block-2">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <h1>Задание №3</h1>
+    <div class="border-4">
+        <ul>
+            <li>
+                <img src="./balloons1.jpg" alt="balloon">
+            </li>
+            <li>
+                <img src="./balloons1.jpg" alt="balloon">
+            </li>
+            <li>
+                <img src="./balloons1.jpg" alt="balloon">
+            </li>
+            <li>
+                <img src="./balloons1.jpg" alt="balloon">
+            </li>
+            <li>
+                <img src="./balloons1.jpg" alt="balloon">
+            </li>
+            <li>
+                <img src="./balloons1.jpg" alt="balloon">
+            </li>
+            <li>
+                <img src="./balloons1.jpg" alt="balloon">
+            </li>
+            <li>
+                <img src="./balloons1.jpg" alt="balloon">
+            </li>
+        </ul>
+        <p style="font-size: 20px;">Разница между display: inline-block и float: left в том, что 
+            inline-block продолжают участвовать в потоке, а float – нет. Соответственно, учитывая эти факты, 
+        inline-block даёт больше гибкости в работе с блоками и с их дальнейшей манипуляцией. Я бы всё таки 
+        остановился бы на варианте с inline-block.</p>
+    </div>
+    <h1>Задание №4</h1>
+    <div class="arrow">«</div>
+    <p style="font-size: 20px; margin-left: 100px;">Центрирование не работает потому, что position: absolute автоматически меняет свойство display на block.
+    В нашем случае, нужно заменить display: table-cell и vertical-align: middle, так как полноценной таблицы у нас нет
+    и vertical-align работает только с элементами таблицы и сточными элементами. Заменить display: table-cell и vertical-align: middle
+    нужно на line-height, свойство, которое устанавливает межстрочный интервал, и установить ему такое же значения высоты, как и у самого блока.</p>
+    <h1>Задание №5</h1>
+        <div class="wrapper">
+            <header class="header">
+                <img src="./balloons1.jpg" alt="balloon" class="img-1">
+                <h2 class="desc">Welcome to Crazy Travelers</h2>
+            </header>
+            <nav class="nav">
+                <ul class="menu">
+                    <li>
+                        <a href="#">Historical Places</a>
+                    </li>
+                    <li>
+                        <a href="#">Beaches</a>
+                    </li>
+                    <li>
+                        <a href="#">Adventoures Tour</a>
+                    </li>
+                    <li>
+                        <a href="#">Sandy Tour</a>
+                    </li>
+                </ul>
+            </nav>
+            <aside class="aside">
+                <div class="info-1">
+                    <h3>Goa Calling</h3>
+                    <img src="./balloons1.jpg" alt="balloon">
+                    <h4>Explore Beaches, Enjoy Sea-Food</h4>
+                </div>
+                <div class="info-2">
+                    <h3>Adventoures Trekking</h3>
+                    <img src="./balloons1.jpg" alt="balloon">
+                    <h4>Paragliding, Rock climbing and many more</h4>
+                </div>
+            </aside>
+            <main class="main">
+                <img src="./balloons1.jpg" alt="balloon" class="img-4">
+                <p>Traveling is main part of our life. Every traveling has some educational value. It gives peace of mind to everyone.</p>
+            </main>
+    </div>
+</body>
+</html>
